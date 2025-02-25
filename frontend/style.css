@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F5F5DC; /* Cream background */
+    color: #4B2E2E; /* Dark brown text */
+}
+
+h1, h2 {
+    color: #3E2723; /* Coffee brown headers */
+}
+
+/* Menu Categories Styling */
+#menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 50%;
+}
+
+#menu-list li {
+    padding: 12px;
+    margin: 5px;
+    background-color: #D2B48C; /* Tan/Brownish cream */
+    border: 1px solid #8B5A2B; /* Dark brown border */
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#menu-list li:hover {
+    background: #A0522D; /* Darker brown hover effect */
+    color: #FFF8DC; /* Cream text on hover */
+    transform: scale(1.05);
+}
+
+/* Product List Styling */
+#product-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 50%;
+}
+
+#product-list li {
+    padding: 10px;
+    margin: 5px;
+    background-color: #E0C7A9; /* Lighter coffee color */
+    border: 1px solid #8B5A2B;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#product-list li:hover {
+    background: #8B5A2B; /* Rich dark coffee color */
+    color: #FFF8DC;
+    transform: scale(1.05);
+}
+
+/* Centering elements */
+#menu-list, #product-list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
